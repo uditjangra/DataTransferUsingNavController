@@ -13,10 +13,11 @@
         android:theme="@style/Theme.DataTransferInNavController"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.DataTransferInNavController">
+            android:label="MainActivity"
+            android:theme="@style/Theme.DataTransferInNavController"
+            tools:ignore="MissingClass">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
